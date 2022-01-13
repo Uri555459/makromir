@@ -1,0 +1,61 @@
+.become-specialist {}
+
+.become-specialist__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.become-specialist__text {}
+
+.become-specialist__subtitle {
+    color: #000000;
+    line-height: 23.4px;
+    margin-bottom: 40px;
+}
+
+.become-specialist__item {
+    padding-left: 40px;
+    font-family: $FuturaDemi;
+    line-height: 23.4px;
+    margin-bottom: 25px;
+    position: relative;
+    max-width: 447px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &::before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        background: url(../img/Vector.svg) no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.become-specialist__img-wrap {
+    text-align: center;
+}
+
+.become-specialist__img {
+    width: 100%;
+    max-width: 308px;
+    margin-bottom: 15px;
+}
+
+.become-specialist__author {
+    color: #000000;
+    font-family: $FuturaDemi;
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-bottom: 4px;
+}
+
+.become-specialist__position {
+    color: #000000;
+    font-size: 13px;
+    line-height: 16.9px;
+}

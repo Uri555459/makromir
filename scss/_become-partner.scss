@@ -1,0 +1,170 @@
+.become-partner {
+    background: $bg;
+    position: relative;
+    z-index: 1;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+    }
+
+    &::before{
+        width: 457px;
+        height: 432px;
+        background: url(../img/become-partner/2.svg);
+        left: -50px;
+        bottom: 414px;
+        z-index: -1;
+    }
+    &::after{
+        width: 457px;
+        height: 432px;
+        background: url(../img/become-partner/3.svg);
+        right: 0;
+        background-position: center center;
+        top: 524px;
+        z-index: -1;
+    }
+}
+
+.become-partner__inner {
+    display: flex;
+}
+
+.become-partner__vertical-line {
+    border-left: 1px solid #e5e5eb;
+    width: 100%;
+    max-width: 66px;
+    min-width: 35px;
+    margin-left: 20px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: url(../img/become-partner/4.svg) no-repeat;
+        position: absolute;
+        left: -16px;
+    }
+
+    &::before {
+        bottom: 330px;
+    }
+
+    &::after {
+        bottom: 130px;
+    }
+}
+
+.vertical-line__square {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(../img/become-partner/4.svg) no-repeat;
+    left: -16px;
+    top: 48px;
+}
+
+.become-partner__content {}
+
+.become-partner__form {
+    width: 100%;
+    max-width: 688px;
+    border: 1px solid #e5e5eb;
+    background-color: $white;
+    padding: 48px 133px 48px 73px;
+    margin-bottom: 32px;
+}
+
+.become-partner__form-title {
+    font-family: $FuturaDemi;
+    line-height: 36.4px;
+    text-transform: lowercase;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.become-partner__form-input {
+    border: 1px solid #e5e5eb;
+    padding: 15px 32px;
+    display: block;
+    margin-bottom: 16px;
+    width: 100%;
+
+    &::placeholder {
+        height: 18px;
+        color: $black;
+        font-family: $FuturaBook;
+        font-size: 18px;
+        line-height: 23.4px;
+    }
+}
+
+.become-partner__form-btn {
+    border: none;
+    display: block;
+    width: 100%;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.become-partner__card {
+    width: 100%;
+    max-width: 722px;
+    border: 1px solid #e5e5eb;
+    background-color: $white;
+    padding: 40px 115px 34px 72px;
+    margin-bottom: 32px;
+    margin-left: 175px;
+
+    &:nth-child(3) {
+        margin-left: 387px;
+    }
+}
+
+.become-partner__card-title {
+    font-family: $FuturaDemi;
+    font-size: 28px;
+    line-height: 36.4px;
+    margin-bottom: 13px;
+}
+
+.become-partner__card-subtitle {
+    line-height: 23.4px;
+}
+
+.become-partner__map {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.become-partner__map-text {
+    width: 100%;
+    max-width: 372px;
+}
+
+.map-text__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-text__col-1,
+.map-text__col-2 {
+    span {
+        display: block;
+        color: #000000;
+        font-size: 22px;
+        line-height: 33px;
+        margin: 5px 0;
+    }
+}
+
+.become-partner__map-img {
+    width: 100%;
+    max-width: 729px;
+}

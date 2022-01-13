@@ -1,0 +1,146 @@
+.header {
+    padding-top: 25px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 168px;
+    height: 38px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+
+.nav__link {
+    color: #3e4243;
+    font-family: $FuturaDemi;
+    font-size: 18px;
+    line-height: 22.5px;
+    padding: 0 12px;
+}
+
+.header__tel {
+    color: #3e4243;
+    font-family: $FuturaDemi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    margin-right: 60px;
+}
+
+.header-nav__btn {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    padding: 10px 20px;
+}
+
+
+.header__inner {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    max-width: 830px;
+    font-size: 54px;
+    font-family: $FuturaDemi;
+    line-height: 67.5px;
+    margin-bottom: 20px;
+}
+
+.header__subtitle {
+    max-width: 677px;
+    color: #0d123d;
+    font-size: 22px;
+    line-height: 28.6px;
+    margin-bottom: 40px;
+}
+
+.header__btn {
+    margin-bottom: 90px;
+}
+
+.header__img {
+    padding-top: 90px;
+}
+
+// Mobile menu
+
+.mobile-menu {
+    display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 111;
+}
+
+.mobile-menu span,
+span::before,
+span::after {
+    display: block;
+    width: 18px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -9px;
+    margin-top: -1px;
+    background: #333;
+}
+
+.mobile-menu span::before {
+    content: "";
+    margin-top: -6px;
+    transition: all .3s;
+}
+
+.mobile-menu span::after {
+    content: "";
+    margin-top: 4px;
+    transition: all .3s;
+}
+
+.active span {
+    background: transparent;
+}
+
+.active span::before {
+    margin-top: 0;
+    transform: rotate(-135deg);
+}
+
+.active span::after {
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+
+.nav__list.active {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 51%;
+    transform: translateX(-50%);
+    background: $white;
+    z-index: 50;
+
+    .nav__item {
+        text-align: center;
+
+        .nav__link {
+            display: block;
+            padding: 10px 12px;
+        }
+    }
+}

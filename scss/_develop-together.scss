@@ -1,0 +1,44 @@
+.develop-together {
+    padding-top: 30px;
+}
+
+.develop-together__bg {
+    width: 100%;
+    max-width: 1314px;
+    background-color: $bg;
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-top: 57px;
+    padding-bottom: 260px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.develop-together__img {
+    position: relative;
+}
+
+.develop-together {
+    .absolute-box {
+        bottom: -210px;
+    }
+    .absolute-box__text-title {
+        max-width: 570px;
+    }
+    .absolute-box__text-subtitle {
+        margin-bottom: 35px;
+    }
+}
+
+.absolute-box__get-access {
+    max-width: 430px;
+    font-family: $FuturaDemi;
+    font-size: 22px;
+    line-height: 28.6px;
+    margin-bottom: 40px;
+
+    span {
+        color: $accent;
+    }
+}

@@ -1,0 +1,170 @@
+.outdoor-advertising {
+    padding-top: 0;
+}
+
+.outdoor-advertising__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outdoor-advertising__text {
+    width: 100%;
+    max-width: 700px;
+}
+.outdoor-advertising__list{
+    margin-bottom: 30px;
+}
+.outdoor-advertising__item {
+    padding-left: 30px;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: $FuturaDemi;
+    font-size: 18px;
+    line-height: 23.4px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &::before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        background: url(../img/Vector.svg) no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.outdoor-advertising__img {
+    width: 100%;
+    max-width: 715px;
+}
+
+.outdoor-advertising__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.outdoor-advertising__card {
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 30px;
+}
+
+.outdoor-advertising__business-card {
+    position: relative;
+    padding-top: 100px;
+
+    &::before {
+        content: "";
+        background: url(../img/outdoor-advertising/8.svg) no-repeat;
+        position: absolute;
+        width: 377px;
+        height: 295px;
+        top: 80px;
+        right: 3px;
+    }
+}
+
+.outdoor-advertising__subtitle {
+    width: 100%;
+    max-width: 504px;
+    color: #202023;
+    font-family: $FuturaDemi;
+    line-height: 28.6px;
+    text-transform: lowercase;
+    font-size: 22px;
+}
+
+.business-card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outdoor-advertising__form {
+    width: 100%;
+    max-width: 482px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.outdoor-advertising__form-imput {
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e5eb;
+    background: $bg;
+    margin-bottom: 15px;
+    padding: 10px 32px;
+
+    &::placeholder {
+        color: $black;
+        font-family: $FuturaBook;
+        font-size: 18px;
+        line-height: 23.4px;
+    }
+}
+
+.outdoor-advertising__form-label {
+    max-width: 482px;
+    min-height: 166px;
+    background: $bg;
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.outdoor-advertising__form-file {
+    height: 0;
+    opacity: 0;
+    border: none;
+}
+
+.form-label__img-wrap {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+
+.form-label__img-text {
+    font-size: 18px;
+}
+
+.business-card__img {
+    position: relative;
+
+    &::after {
+        content: "";
+        background: url(../img/outdoor-advertising/7.svg) no-repeat;
+        position: absolute;
+        left: 0;
+        bottom: -70px;
+        width: 294px;
+        height: 165px;
+    }
+}
+
+.outdoor-advertising {
+
+    button.absolute-box__btn {
+        transition: all .3s linear;
+        width: 100%;
+        max-width: 233px;
+    }
+
+    .absolute-box__btn--white {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

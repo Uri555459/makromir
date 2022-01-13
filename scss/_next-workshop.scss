@@ -1,0 +1,80 @@
+.next-workshop {}
+
+.next-workshop__desc {}
+
+.next-workshop__desc-subtitle {
+    max-width: 688px;
+    color: #000000;
+    font-size: 18px;
+    line-height: 23.4px;
+
+    &:nth-child(1) {
+        margin-bottom: 25px;
+    }
+
+    &:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
+
+.next-workshop__img-bg {
+    background: $bg;
+    width: 100%;
+    max-width: 1158px;
+    height: 821px;
+    margin-left: -56px;
+    padding-top: 53px;
+}
+
+.next-workshop__img {
+    width: 100%;
+    max-width: 1200px;
+    height: 653px;
+    margin-left: 55px;
+    position: relative;
+}
+
+.next-workshop {
+    .absolute-box__text-title {
+        margin-bottom: 100px;
+
+        span {
+            font-family: $FuturaBook;
+        }
+    }
+}
+
+.next-workshop {
+
+    .absolute-box__btn,
+    .absolute-box__btn--white {
+        position: relative;
+    }
+
+    .absolute-box__btn {
+        &::before {
+            content: "1500 руб.";
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 22px;
+            line-height: 28.6px;
+            font-family: $FuturaBook;
+            color: $black;
+        }
+    }
+    .absolute-box__btn--white {
+        &::before {
+            content: "Бесплатно для партнеров!";
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 22px;
+            line-height: 28.6px;
+            color: $black;
+            width: 100%;
+        }
+    }
+}

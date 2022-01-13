@@ -1,0 +1,24 @@
+.television-partners {
+    background: $bg;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+.television-partners__title {
+    font-family: $FuturaDemi;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 45px;
+}
+
+.television-partners__items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.television-partners__item {
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 30px;
+}

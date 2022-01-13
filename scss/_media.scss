@@ -1,0 +1,423 @@
+@media (max-width: 1250px){
+    .become-partner__card:nth-child(3){
+        margin-left: 175px;
+    }
+}
+@media (max-width: 1100px) {
+    .develop-together {
+        .absolute-box {
+            position: relative;
+            bottom: 0;
+        }
+    }
+    .develop-together__bg {
+        padding-bottom: 0;
+    }
+    .become-partner__card:nth-child(3),
+    .become-partner__card {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .nav__list {
+        display: block;
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all .3s linear;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header__tel {
+        display: none;
+    }
+
+    .affiliate-program__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .affiliate-program__img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .affiliate-program__text-btn {
+        margin: 0 auto;
+    }
+
+    .reviews-slider__item-card {
+        flex-direction: column;
+    }
+
+    .item-card__img-wrap {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+
+        .item-card__img {
+            margin: 0 auto 16px;
+        }
+    }
+    .join-macro__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-macro__img {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .about__row-2,
+    .about__row-3 {
+        margin-bottom: 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .about__advantages-item {
+            margin-bottom: 30px;
+            min-width: 225px;
+            text-align: center;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        .about__advantages-item--accent {
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .calculator__inner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .calculator__btn {
+        margin-top: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .calculator__range {
+        width: 100%;
+    }
+
+    #calculator__range-slider--1,
+    #calculator__range-slider--2,
+    #calculator__range-slider--3 {
+        max-width: 100%;
+    }
+
+    .calculator__range p {
+        max-width: 100%;
+    }
+
+    .calculator__info {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .help-objekt__inner {
+        flex-direction: column;
+    }
+
+    .help-objekt__img-wrap {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .header__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .section__title,
+    .affiliate-program__text-title,
+    .work-comfortable__gallery-title,
+    .absolute-box__get-access,
+    .friendly-atmosphere__title,
+    .advertising-slider__title,
+    .television-partners__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .about__subtitle {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about__advantages-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .about__box-img {
+        display: none;
+    }
+
+    .about__box-price {
+        font-size: 25px;
+        line-height: 23.4px;
+
+        br {
+            display: none;
+        }
+    }
+
+    .advertising__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advertising__list {
+        margin-bottom: 30px;
+    }
+
+    .business-card__inner,
+    .personal-brand__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .outdoor-advertising__subtitle {
+        margin-bottom: 30px;
+    }
+    .become-partner__vertical-line {
+        display: none;
+    }
+    .become-partner__form {
+        padding: 48px;
+    }
+    .become-partner__map {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .become-partner__map-text {
+        max-width: 100%;
+    }
+    .outdoor-advertising__img {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .about__row-1 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__inner {
+        flex-wrap: wrap-reverse;
+    }
+
+    .header__img {
+        padding-top: 0;
+    }
+
+    .header__btn {
+        margin-bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-comfortable__inner,
+    .become-specialist__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .work-comfortable__img,
+        .become-specialist__img-wrap {
+            margin-bottom: 30px;
+        }
+    }
+
+    .reviews-slider__item {
+        .reviews-slider__item-card:last-child {
+            display: none;
+        }
+    }
+
+    .consultation__inner {
+        flex-direction: column-reverse;
+    }
+
+    .consultation__img-wrap,
+    .better-conditions__img-wrap {
+        margin-bottom: 20px;
+    }
+
+    .consultation__img,
+    .better-conditions__img {
+        margin: 0 auto 16px;
+    }
+
+    .better-conditions__inner {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__text {
+        width: 100%;
+    }
+
+    .header__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .header__subtitle,
+    .absolute-box__text-subtitle {
+        font-size: 14px;
+        line-height: 18.2px;
+    }
+
+    .modal {
+        .modal__title {
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .modal__subtitle {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .section__title,
+    .about__advantages-title,
+    .affiliate-program__text-title,
+    .work-comfortable__gallery-title,
+    .absolute-box__get-access,
+    .friendly-atmosphere__title,
+    .become-partner__form-title,
+    .become-partner__card-title,
+    .advertising-slider__title,
+    .television-partners__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .about__box-price {
+        font-size: 18px;
+        line-height: 23.4px;
+
+    }
+
+    .our-office__img-bg,
+    .next-workshop__img-bg {
+        margin-left: 0;
+        padding: 30px;
+        height: auto;
+    }
+
+    .our-office__img,
+    .next-workshop__img {
+        margin-left: 0;
+        height: 465px;
+    }
+
+    .absolute-box {
+        bottom: 0;
+        padding: 15px;
+    }
+
+    .absolute-box__text-title,
+    .become-partner__card-subtitle {
+        font-size: 14px;
+        line-height: 18.2px;
+    }
+
+    .our-office {
+        .absolute-box__btn {
+            padding: 15px 5px;
+        }
+    }
+
+    .next-workshop .absolute-box__btn::before {
+        font-size: 16px;
+        line-height: 20.8px;
+        top: -30px;
+    }
+
+    .next-workshop {
+        .absolute-box__btn {
+            padding: 15px 5px;
+        }
+    }
+    .absolute-box__text-title {
+        margin-bottom: 20px;
+    }
+    .become-partner__card {
+        padding: 15px;
+    }
+    .friendly-atmosphere__subtitle {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header__contact {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: absolute;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+    .become-partner__form {
+        padding: 15px;
+    }
+    .join-macro__or::before,
+    .join-macro__or::after {
+        max-width: 110px;
+    } 
+}
+
+@media (max-width: 350px) {
+    .calculator__info-top {
+        flex-direction: column;
+        align-items: center;
+
+        .info-top__agency {
+            margin-bottom: 30px;
+        }
+    }
+
+    .calculator__info-body .info-body__inner {
+        margin: 0 auto;
+    }
+
+    .info-bottom__title {
+        text-align: center;
+    }
+}
