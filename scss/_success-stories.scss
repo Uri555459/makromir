@@ -1,0 +1,65 @@
+.success-stories {}
+
+.success-stories__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.success-stories__item {
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid #e5e5eb;
+    background-color: $white;
+    padding: 0 45px 54px 77px;
+    margin-bottom: 36px;
+}
+
+.success-stories__item-img {
+    max-width: 183px;
+    margin: -20px auto 16px;
+}
+
+.success-stories__item-author {
+    font-family: $FuturaDemi;
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.success-stories__item-position {
+    font-size: 13px;
+    line-height: 16.9px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid $accent;
+    text-align: center;
+}
+
+.success-stories__item-text {
+    color: #000000;
+    font-size: 16px;
+    line-height: 20.8px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 27px;
+        height: 36px;
+        background: url(../img/reviews/2.svg) no-repeat center center;
+        right: 0;
+    }
+
+    &::before {
+        top: -20px;
+        left: -25px;
+    }
+}
+.success-stories__btn-wrap {
+    text-align: center;
+}

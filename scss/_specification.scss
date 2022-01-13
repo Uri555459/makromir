@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $FuturaBook;
+    font-size: 18px;
+    color: $black;
+    line-height: 23.4px;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    color: $white;
+    font-family: $FuturaDemi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    background: $accent;
+    padding: 15px 70px;
+    display: inline-block;
+    white-space: nowrap;
+
+    &:hover {
+        background: #fd4f00;
+    }
+}
+
+.section__title {
+    font-family: $FuturaDemi;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.absolute-box {
+    width: 100%;
+    max-width: 790px;
+    background-color: #fefefe;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    padding: 48px 102px 48px 72px;
+}
+
+.absolute-box__text-title {
+    font-family: $FuturaDemi;
+    font-size: 28px;
+    line-height: 36.4px;
+    margin-bottom: 50px;
+}
+
+.absolute-box__btn-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.absolute-box__btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid $accent;
+    margin-bottom: 50px;
+
+    &:hover {
+        background: #fefefe;
+        color: $accent;
+    }
+}
+
+.absolute-box__btn--white {
+    background: #fefefe;
+    color: $accent;
+    border: 1px solid $accent;
+
+    &:hover {
+        background: $accent;
+        color: $white;
+    }
+}

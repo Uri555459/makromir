@@ -1,0 +1,56 @@
+.personal-brand {}
+
+.personal-brand__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-brand__text {
+    width: 100%;
+    max-width: 584px;
+    padding-top: 20px;
+}
+
+.personal-brand__text-title {
+    max-width: 584px;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 23px;
+
+    span {
+        font-family: $FuturaDemi;
+    }
+}
+
+.personal-brand__text-subtitle {
+    color: #000000;
+    line-height: 27px;
+    margin-bottom: 74px;
+}
+
+.personal-brand__img {
+    width: 100%;
+    max-width: 512px;
+    position: relative;
+    z-index: 1;
+    &::before{
+        content: "";
+        width: 376px;
+        height: 300px;
+        background: url(../img/personal-brand/2.svg)no-repeat;
+        position: absolute;
+        right: 7px;
+        bottom: -180px;
+        z-index: -1;
+    }
+    &::after {
+       content: "";
+       width: 137px;
+       height: 164px;
+       background: url(../img/personal-brand/3.svg)no-repeat;
+       position: absolute;
+       top: -109px;
+       right: 7px;
+       z-index: -1;
+    }
+}

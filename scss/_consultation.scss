@@ -1,0 +1,75 @@
+.consultation {
+    background: url(../img/consultation/3.svg) no-repeat;
+    background-position: right top;
+}
+
+.consultation__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consultation__desc {
+    width: 100%;
+    max-width: 610px;
+}
+
+.consultation__desc-subtitle {
+    color: #000000;
+    font-size: 18px;
+    line-height: 23.4px;
+
+    &:nth-child(1) {
+        margin-bottom: 30px;
+    }
+
+    &:nth-child(2) {
+        margin-bottom: 40px;
+    }
+}
+
+.consultation__desc-item {
+    padding-left: 42px;
+    font-family: $FuturaDemi;
+    font-size: 18px;
+    line-height: 23.4px;
+    position: relative;
+    margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &::before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        background: url(../img/consultation/1.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.consultation__img-wrap {
+    text-align: center;
+}
+
+.consultation__img {
+    width: 100%;
+    max-width: 308px;
+    margin-bottom: 16px;
+}
+
+.consultation__img-author {
+    color: #000000;
+    font-family: $FuturaDemi;
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-bottom: 3px;
+}
+
+.consultation__img-position {
+    color: #000000;
+    font-size: 13px;
+    line-height: 16.9px;
+}
